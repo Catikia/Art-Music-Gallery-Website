@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head>
+	<!--Catikia's Art & Music Gallery
+		Author: Catikia
+		Date: 4/11/2016
+		-->
+		<title>Catikia's Art & Music Gallery</title>
+		<meta charset="utf-8">
+		<meta name = "viewport"
+			content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href=catsartandmusic.css>
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+	</head>
+	<body>
+	<div id="wrapper">
+		<header>
+		<!--Name at top of page-->
+			<h1><img src="images/banner.jpg" alt="Catikia's Art & Music Gallery" height="200" width="960"></h1>
+		</header>
+		<nav>
+		<!--links to other pages-->
+
+			<div id='cssmenu'>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class='active' class='has-sub'><a href="art.html">Art&nbsp;</a>
+						<ul>
+							<li><a href="other.html">Other Gallery</a></li>
+							<li><a href="abstract.html">Abstract Gallery</a></li>
+							<li><a href="commission.html">Commission</a></li>
+						</ul>
+					</li>
+					<li class='has-sub'><a href="music.html">Music&nbsp;</a>
+						<ul>
+							<li class='has-sub'><a href="solo.html">Solos</a>
+								<ul>
+									<li><a href="improv.html">Improvisation</a></li>
+									<li><a href="covers.html">Covers</a></li>
+									<li><a href="comp.html">Compositions</a></li>
+								</ul>
+							</li>
+							<li><a href="groups.html">Groups</a></li>
+							<li><a href="performances.html">Performances</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="sitemap.html">Sitemap</a></li>
+				</ul>
+			</div>
+
+		</nav>
+		<div id="fullcol">
+		<main>
+		<!--info about getting a piece commissioned-->
+		<h2>
+		Commissions
+		</h2>
+			<p>
+				Would you like Catikia to customize a piece of art for you?<br>
+			</p>
+			<form method=post action="mailto: Catikia1@gmail.com">
+				<label for="myName">*Name:</label>
+				<input type="text" name="myName" id="myName"
+					required="required" placeholder="Your first and last name"><br>
+				<label for="myEmail">*E-mail:</label>
+				<input type="email" name="myEmail" id="myEmail"
+					required="required" placeholder="you@yourdomain.com"><br>
+				<label for="artType">*Art Type:</label>
+				<input type="text" name="artType" id="artType"
+					required="required" placeholder="Oil Painting, Photoshop?"><br>
+				<label for="descriptionOfArt">*Description of what you want:</label>
+				<textarea name="descriptionOfArt" id="descriptionOfArt" rows="2" cols="20" required=	"required"></textarea><br>
+				<input id="mySubmit" type="submit" value="Submit Email">
+			</form>
+				<br><br><br><br><br><br><br><br>
+				<br><br><br><br>
+		</main>
+		</div>
+		<footer>
+		<!--copyright & contact info-->
+			<p>
+				&nbsp;<br>
+				Copyright &copy; 2016 Catikia<br>
+				<a href="mailto:Catikia1@gmail.com">Catikia1@gmail.com</a>
+			</p>
+		</footer>
+	</div>
+	</body>
+</html>
